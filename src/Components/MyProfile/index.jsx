@@ -10,13 +10,13 @@ function MyProfile(props) {
       <div>{props.mail}</div>
 
       <div className={styles.links}>
-        <a href={props.githubUrl} target="_blank">
+        <a href={props.githubUrl} target="_blank" rel="noopener noreferrer">
           Github
         </a>
-        <a href={props.linkedin} target="_blank">
+        <a href={props.linkedin} target="_blank" rel="noopener noreferrer">
           Linkedin
         </a>
-        <a href={props.Instagram} target="_blank">
+        <a href={props.Instagram} target="_blank" rel="noopener noreferrer">
           Instagram
         </a>
       </div>
